@@ -1,0 +1,125 @@
+body{
+    background-color:#f3ecec;
+}
+.heading{
+    font-size:52px;
+    color:#7369ab;
+}
+.panelx{
+    height:100%;
+    background-color:white;
+    box-shadow: 0px 2px 2px 1px #969292
+}
+.todobadge{
+    background-color: #7369ab;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.navigation-panel
+{
+    margin:5px;
+}
+.changes-panel
+{
+    margin:5px;
+}
+li.header{
+    list-style-type:none;
+    padding:2px;
+    font-size:14px;
+    background-color:#e4e9ec;
+    color:black;
+    transition:background-color .2s; 
+    cursor:pointer;   
+}
+li.header:hover{
+    background-color:#68dae4;       
+}
+.subnav>li{
+    list-style-type:none;
+    padding:2px;
+    font-size:14px;
+    cursor:pointer;
+    border-bottom:1px solid #ddd;
+}
+/* styling for input text */
+input[type=text]{
+    width:100%;
+    font-size:14px;
+    padding:7px;
+    padding-left:10px;
+    border:1px dashed grey;
+    border-radius:20px;
+    transition:border .3s;
+}
+input[type=text]:focus{
+    outline:none;
+    border:1px solid grey;
+}
+/* styling for submit button */
+input[type=submit]{
+    width:100%;
+    color:white;
+    padding:7px;
+    border:1px solid blueviolet;
+    background-color:blueviolet;
+    border-radius:20px;
+    font-size:14px;
+    transition:background-color .3s
+}
+input[type=submit]:hover{
+    color:black;
+    border:1px dashed blueviolet;
+    background-color:white;
+}
+input[type=submit]:focus{
+    outline:none;
+    border:1px solid blueviolet;
+}
+.todo-panel{
+    margin-bottom:5px;
+    padding:3px;
+    border-radius:10px;
+    background-color:#eceaea;
+}
+.todo-panel p{
+    margin-bottom:0 !important;
+    font-size:14px;
+}
+.error-panel{
+    margin-bottom:5px;
+    padding:3px;
+    border-radius:10px;
+    background-color:#ff000059;
+}
+.error-panel p{
+    margin-bottom:0 !important;
+    font-size:14px;
+}
+.success-panel{
+    margin-bottom:5px;
+    padding:3px;
+    border-radius:10px;
+    background-color:#53c953a1;
+}
+.success-panel p{
+    margin-bottom:0 !important;
+    font-size:14px;
+}
+.del-button:hover{
+
+    color:tomato;
+    cursor:pointer;
+}
+#delete_all_panels{
+    cursor:pointer;
+}
+#delete_all_panels:hover{
+    color:blueviolet;
+}
+.helping-tools{
+    border-bottom:1px solid #e5e5e5;
+}
